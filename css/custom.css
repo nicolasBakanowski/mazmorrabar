@@ -5,11 +5,20 @@
 .banner_height{
     max-height: 600px;
 }
+.bgextra{
+    background-color: tomato;
+}
+.bgblack{
+    background-color: black;
+}
 .fullbackground{
     background-color: darkslateblue;
 }
 #galeria .col-lg-4{
     padding: 10px;
+}
+#galeria .col-lg-3{
+    padding:10px;
 }
 #galeria img{
     width: 100%;
@@ -18,3 +27,40 @@
 #galeria img:hover{
     border: 5px solid black
 }
+.text {
+    font-size:28px;
+    font-family:helvetica;
+    font-weight:bold;
+    color:blue;
+    text-transform:uppercase;
+  }
+  .parpadea {
+    
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
