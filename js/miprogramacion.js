@@ -7,3 +7,6 @@ $(document).ready(function() {
     $("#productos").click(function(){
         $("#centro").load("productos.html");
     });
+    $("#promos").click(function(){
+        $("#centro").load("promos.html");
+    });
